@@ -6,7 +6,7 @@
 
 ### 3.1.1 Wiring Instruction
 
-When wiring, connect the digital tube’s 5V, GND, DIN (GPIO 24), and CLK (GPIO 22) pins to the corresponding pins on the Raspberry Pi.
+When wiring, connect the digital tube's 5V, GND, DIN (GPIO 24), and CLK (GPIO 22) pins to the corresponding pins on the Raspberry Pi.
 
 <img src="../_static/media/chapter_1/section_3/media/image4.png" style="width:500px" />
 
@@ -18,7 +18,7 @@ When wiring, connect the digital tube’s 5V, GND, DIN (GPIO 24), and CLK (GPIO 
 
 ### 3.1.2 Environment Configuration
 
-Install VNC software on PC. You can find it under **“[Appendix-> Remote Desktop Connection Tool]()”**. For the detailed operations of VNC, please refer to the same directory.
+Install VNC software on PC. You can find it under **"[Appendix-> Remote Desktop Connection Tool](https://drive.google.com/drive/folders/1p_CynW-uc9e1yV8mQyXurabCUKfBHimY?usp=sharing)"**. For the detailed operations of VNC, please refer to the same directory.
 
 Drag the program and SDK library files into the Raspberry Pi system image. For demonstration, the files are placed on the Desktop in this example. 
 
@@ -28,31 +28,31 @@ Drag the program and SDK library files into the Raspberry Pi system image. For d
 
 Open the terminal and enter the following command to navigate to the program directory:
 
-```py
+```bash
 sudo chmod a+x Sensor_Demo/
 ```
 
 ## 3.2 Test Case
 
-Program to display the number “**1234**” on the seven-segment display module.
+Program to display the number "**1234**" on the seven-segment display module.
 
 ### 3.2.1 Program Download
 
 1. Open the terminal and enter the following command to navigate to the program directory and press Enter.
 
-```py
+```bash
 cd Desktop/Sensor_Demo/
 ```
 
 2. Run the program by entering:
 
-```py
+```bash
 python3 DigitalDisplay.py
 ```
 
 ### 3.2.2 Project Outcome
 
-The four-digit display shows the numbers **“1234.”**
+The four-digit display shows the numbers **"1234."**
 
 ### 3.2.3 Program Brief Analysis
 

@@ -1,6 +1,6 @@
 # 4. Jetson Nano Development Tutorial
 
-<img class="common_img" src="../_static/media/chapter_1\section_4\media\image3.png" style="width:300px" />
+<img class="common_img" src="../_static/media/chapter_1/section_4/media/image3.png" style="width:300px" />
 
 ## 4.1 Getting Started
 
@@ -8,7 +8,7 @@
 
 This section uses DuPont wires to connect digital tube module. For wiring instructions, refer to the figure below:
 
-<img class="common_img" src="../_static/media/chapter_1\section_4\media\image4.png" style="width:500px" />
+<img class="common_img" src="../_static/media/chapter_1/section_4/media/image4.png" style="width:500px" />
 
 > [!NOTE]
 >
@@ -16,9 +16,9 @@ This section uses DuPont wires to connect digital tube module. For wiring instru
 
 ### 4.1.2 Environment Configuration
 
-Install NoMachine on your computer. The software package is located under "**[2 Software Tools & Programs -\> 01 Software Installation Package -\> Remote Desktop Connection Tool -\> 1 Remote Desktop Connection Tool]()"**. For detailed usage of NoMachine, refer to the materials in the same directory.
+Install NoMachine on your computer. The software package is located under "**[2 Software Tools & Programs -\> 01 Software Installation Package -\> Remote Desktop Connection Tool -\> 1 Remote Desktop Connection Tool](https://drive.google.com/drive/folders/1Zo_aqjHFcxcDNgYyJHAIRXoOxozrl22U?usp=sharing)"**. For detailed usage of NoMachine, refer to the materials in the same directory.
 
-**Drag the program into the Jetson Nano system image. As an example, place it on the desktop.**  Ensure that both **“digital_display.py”** and **“tm1640.py”** are stored in the same directory.
+**Drag the program into the Jetson Nano system image. As an example, place it on the desktop.**  Ensure that both **"digital_display.py"** and **"tm1640.py"** are stored in the same directory.
 
 ## 4.2 Test Case
 
@@ -28,13 +28,13 @@ In this case, the digital tube is controlled by the program to display the speci
 
 1. Open the terminal and enter the following command to navigate to the program directory:
 
-```py
+```bash
 cd Desktop/
 ```
 
 2. Run the program by entering:
 
-```py
+```bash
 Python3 digital_display.py
 ```
 
@@ -60,7 +60,7 @@ Import the library files required by the program, including the library files ne
 font = {'0':0x3f,'1':0x06,'2':0x5b,'3':0x4f,'4':0x66,'5':0x6d,'6':0x7d,'7':0x07,'8':0x7f,'9':0x6f, '-': 0x40}
 ```
 
-Define the dictionary **“font”**, which contains the segment codes for digits 0–9 and the symbol **“–”** on the digital tube module.
+Define the dictionary **"font"**, which contains the segment codes for digits 0–9 and the symbol **"–"** on the digital tube module.
 
 - **Main Function**
 

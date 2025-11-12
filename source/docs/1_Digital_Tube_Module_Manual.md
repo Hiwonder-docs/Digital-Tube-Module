@@ -10,7 +10,7 @@ LED digital tube is a 4-digit red LED digital tube used to display numbers, deci
 
 ### 1.1.2 Working Principle
 
-<span class="mark">It has 4 digital tubes, each of which has 8 LED lights. By controlling these 8 lights, you can make a digital tube display numbers, decimal points and part of the letters.</span>
+It has 4 digital tubes, each of which has 8 LED lights. By controlling these 8 lights, you can make a digital tube display numbers, decimal points and part of the letters.
 
 <img class="common_img" src="../_static/media/chapter_1/section_1/media/image3.png" style="width:100px" />
 
@@ -22,7 +22,7 @@ LED digital tube is a 4-digit red LED digital tube used to display numbers, deci
 
 ## 1.3 Specifications
 
-For more information, you may refer to “**[Digital tube sensor schematic]()**”
+For more information, you may refer to "**[Digital tube sensor schematic](https://drive.google.com/drive/folders/1e4hyrV5j96fYs93Wj5IVg0-WDs9dq7Wf?usp=sharing)**"
 
 ### 1.3.1 Pin Instruction
 
@@ -37,7 +37,7 @@ For more information, you may refer to “**[Digital tube sensor schematic]()**�
 
 ### 1.3.2 Specifications
 
-<table  class="docutils-nobg" style="margin:0 auto" border="1">
+<table class="docutils-nobg" border="1">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />

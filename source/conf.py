@@ -84,7 +84,7 @@ def replace_gfm_callouts(app, docname, source):
 def setup(app):
     app.connect("source-read", replace_gfm_callouts)
 
-project = 'Test'
+project = 'Digital Tube Module'
 copyright = '2025, Hiwonder'
 author = 'Hiwonder'
 release = 'v1.0'
@@ -109,7 +109,7 @@ myst_enable_extensions = [
     "dollarmath",
 ]
 
-
+html_baseurl = 'https://wiki.hiwonder.com/en/latest/'
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 html_css_files = ['style.css']
