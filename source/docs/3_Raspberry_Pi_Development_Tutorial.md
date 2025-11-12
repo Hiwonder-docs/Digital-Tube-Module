@@ -1,6 +1,6 @@
 # 3. Raspberry Pi Development Tutorial
 
-<img src="../_static/media/chapter_1/section_3/media/image3.png" style="width:300px" />
+<img src="../_static/media/chapter_1/section_3/media/image3.png" style="width:300px" class="common_img" />
 
 ## 3.1 Getting Started
 
@@ -8,7 +8,7 @@
 
 When wiring, connect the digital tube's 5V, GND, DIN (GPIO 24), and CLK (GPIO 22) pins to the corresponding pins on the Raspberry Pi.
 
-<img src="../_static/media/chapter_1/section_3/media/image4.png" style="width:500px" />
+<img src="../_static/media/chapter_1/section_3/media/image4.png" style="width:700px" class="common_img" />
 
 > [!NOTE]
 >
